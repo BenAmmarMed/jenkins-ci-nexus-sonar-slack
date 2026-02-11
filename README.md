@@ -1,25 +1,35 @@
-# Prerequisites
-#
-- JDK 17 or 21
-- Maven 3.9
-- MySQL 8
+# CI Pipeline Implementation – Jenkins, Nexus, SonarQube & Slack
 
-# Technologies 
-- Spring MVC
-- Spring Security
-- Spring Data JPA
-- Maven
-- JSP
-- Tomcat
-- MySQL
-- Memcached
-- Rabbitmq
-- ElasticSearch
-# Database
-Here,we used Mysql DB 
-sql dump file:
-- /src/main/resources/db_backup.sql
-- db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < db_backup.sql
+## 📌 Project Overview
+
+This repository is based on the original project created by:
+
+👉 **Original Repository:** https://github.com/hkhcoder/vprofile-project  
+👉 **Original Author:** Imran Teli  
+
+⚠️ This is NOT my original project.
+
+This repository focuses specifically on implementing a **Continuous Integration (CI) pipeline** as part of a DevOps training project.
+
+---
+
+## 🎯 My Contribution
+
+My work in this project consists of designing and implementing a complete CI pipeline integrating:
+
+- Jenkins (Pipeline Automation)
+- SonarQube (Static Code Analysis)
+- Nexus Repository (Artifact Management)
+- Slack (Build Notifications)
+
+To view my CI implementation, please switch to the following branch:
+
+```bash
+git checkout ci-jenkins
+Or select the branch ci-jenkins directly from the GitHub branch selector.
 
 
+👤 Author
+
+Mohamed Ben Ammar
+DevOps Engineer
